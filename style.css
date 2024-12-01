@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
-
-:root {
-    --black: rgb(0, 0, 0);
-    --white: rgb(255, 255, 255);
-    --center: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa+One:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Changa+One:ital@0;1&family=Jacquard+12+Charted&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
-    margin-top: 100px;
-    background-color: var(--black);
-    color: var(--white);
-    text-align: var(--center);
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
 }
 
 h1 {
     font-size: 100px;
-    font-family: "Jaro", sans-serif;
+    font-family: "Changa One", sans-serif;
     margin-bottom: 0%;
     font-weight: bold;
     animation: colorChange 20s infinite
@@ -63,10 +59,14 @@ h1 {
     }
 }
 
+h2 {
+    font-family: "Chakra Petch", sans-serif;
+}
+
 p {
-    margin: 400px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 #loguin {
@@ -122,4 +122,9 @@ button:hover {
     color: white;
     margin-top: -5%;
     margin-left: 1%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
