@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
 :root {
     --black: rgb(0, 0, 0);
     --white: rgb(255, 255, 255);
@@ -5,6 +7,7 @@
 }
 
 body {
+    margin-top: 100px;
     background-color: var(--black);
     color: var(--white);
     text-align: var(--center);
@@ -12,20 +15,63 @@ body {
 
 h1 {
     font-size: 100px;
-    background: linear-gradient(to right, blue 0%, yellow 50%, red 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: "Jaro", sans-serif;
+    margin-bottom: 0%;
+    font-weight: bold;
+    animation: colorChange 20s infinite
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    15% {
+        color: orange;
+    }
+    23% {
+        color: yellow;
+    }
+    30% {
+        color: green;
+    }
+    38% {
+        color: blue;
+    }
+    46% {
+        color: indigo;
+    }
+    53% {
+        color: violet;
+    }
+    61% {
+        color: indigo;
+    }
+    69% {
+        color: blue;
+    }
+    77% {
+        color: green;
+    }
+    84% {
+        color: yellow;
+    }
+    92% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
 }
 
 p {
     margin: 400px;
-    margin-top: -50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
 #loguin {
     display: block;
-    margin-left: 25%;
+    margin: -10px 690px 0 690px;
 }
 
 button {
@@ -55,4 +101,25 @@ button {
 
 button:hover {
     opacity: 0.5;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+/* ICONS */
+.fa-brands {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-xmark {
+    font-size: 20px;
+    color: white;
+    margin-top: -5%;
+    margin-left: 1%;
 }
