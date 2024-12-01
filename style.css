@@ -12,10 +12,47 @@ body {
 
 h1 {
     font-size: 100px;
+    background: linear-gradient(to right, blue 0%, yellow 50%, red 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p {
-    margin: 200px;
+    margin: 400px;
     margin-top: -50px;
     margin-bottom: 50px;
+}
+
+#loguin {
+    display: block;
+    margin-left: 25%;
+}
+
+button {
+    background-color: var(--black);
+    color: var(--white);
+    width: 120px;
+    height: 30px;
+    margin: 20px;
+    border-color: var(--white);
+    border-radius: 20px;
+}
+
+#lin:hover {
+    background-color: blue;
+    color: black;
+}
+
+#ext:hover {
+    background-color: red;
+    color: black;
+}
+
+#hum:hover {
+    background-color: yellow;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.5;
 }
